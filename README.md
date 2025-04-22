@@ -7,26 +7,29 @@ A Laravel package to generate repository pattern files based on your models.
 1. Install the package via composer:
 
 ```bash
-composer require wakeelkhaled/repository-generator
+composer require khaledweka/repository-generator
 ```
 
 Publish the configuration file (optional):
 
 ```bash
-php artisan vendor:publish --provider="wakeelkhaled\RepositoryGenerator\RepositoryGeneratorServiceProvider"
+php artisan vendor:publish --provider="khaledweka\RepositoryGenerator\RepositoryGeneratorServiceProvider"
 
 ```
+
 Usage
 Generate repository files for a specific model:
 
 ```bash
 php artisan make:repository User
 ```
+
 Generate repository files for all models:
 
 ```bash
 php artisan make:repository --all
 ```
+
 Features
 Generates contract interfaces for repositories
 
@@ -35,7 +38,6 @@ Generates repository classes that extend BaseRepository
 Automatically updates the RepositoryServiceProvider
 
 Follows your existing repository pattern implementation
-
 
 ## How to Use
 
