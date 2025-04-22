@@ -1,29 +1,29 @@
 {
-    "name": "wakeelkhaled/RepositoryGenerator",
-    "description": "A Laravel package to generate repository pattern files based on models",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Your Name",
-            "email": "your@email.com"
-        }
-    ],
-    "require": {
-        "php": "^8.0",
-        "laravel/framework": "^9.0|^10.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "wakeelkhaled\\RepositoryGenerator\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "wakeelkhaled\\RepositoryGenerator\\RepositoryGeneratorServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "khaledweka/repository-generator",
+  "description": "A Laravel package to generate repository pattern files based on models",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Khaled Alwakeel",
+      "email": "khaled_elwakeel@outlook.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^9.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "khaledweka\\RepositoryGenerator\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "khaledweka\\RepositoryGenerator\\RepositoryGeneratorServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

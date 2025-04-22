@@ -1,6 +1,6 @@
 <?php
 
-namespace wakeelkhaled\RepositoryGenerator\Generators;
+namespace khaledweka\RepositoryGenerator\Generators;
 
 use Illuminate\Support\Facades\File;
 

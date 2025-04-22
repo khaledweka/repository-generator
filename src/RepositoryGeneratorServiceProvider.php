@@ -1,9 +1,9 @@
 <?php
 
-namespace wakeelkhaled\RepositoryGenerator;
+namespace khaledweka\RepositoryGenerator;
 
 use Illuminate\Support\ServiceProvider;
-use wakeelkhaled\RepositoryGenerator\Commands\GenerateRepositoryCommand;
+use khaledweka\RepositoryGenerator\Commands\GenerateRepositoryCommand;
 
 class RepositoryGeneratorServiceProvider extends ServiceProvider
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace wakeelkhaled\RepositoryGenerator\Commands;
+namespace khaledweka\RepositoryGenerator\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
-use wakeelkhaled\RepositoryGenerator\Generators\ContractGenerator;
-use wakeelkhaled\RepositoryGenerator\Generators\RepositoryGenerator;
-use wakeelkhaled\RepositoryGenerator\Generators\ServiceProviderGenerator;
+use khaledweka\RepositoryGenerator\Generators\ContractGenerator;
+use khaledweka\RepositoryGenerator\Generators\RepositoryGenerator;
+use khaledweka\RepositoryGenerator\Generators\ServiceProviderGenerator;
 
 class GenerateRepositoryCommand extends Command
 {
